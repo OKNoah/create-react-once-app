@@ -1,0 +1,51 @@
+{
+  "name": "create-react-once-app",
+  "version": "0.0.1",
+  "description": "React Native template for a quick start with React Once.",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "precommit": "npm run test"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "bin": {
+    "create-react-once-app": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/NoahGray/create-react-once-app.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react-native",
+    "react-native-web",
+    "react-native-macos",
+    "catalyst",
+    "template",
+    "boilerplate"
+  ],
+  "author": "Noah Gray",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.1.0"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^2.15.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "./node_modules/"
+    ]
+  },
+  "bugs": {
+    "url": "https://gitlab.com/NoahGray/create-react-once-app/issues"
+  },
+  "homepage": "https://gitlab.com/NoahGray/create-react-once-app#readme"
+}
