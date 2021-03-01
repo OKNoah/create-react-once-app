@@ -2,27 +2,35 @@
 
 > ⚠️ This is pre-release stuff, and while it may be a good starting off point, it doesn't have the easy upgradability that I might like to add if people are interested. There may be bloat left over from years of updating this codebase (going back 6 years), but that too can be fixed if there's interest.
 
-### Learn once, Write once, React Once, Use Everywhere
+### Learn once, Write once, Use Everywhere, React Once
 
 ##### What it is
 
-React is the declarative UI framework that became popular as a JS web front-end framework, before becoming amazing by translating JS code into native iOS and then Android apps. What now? Well, `react-native-web` bridges some gaps and lets you write web React like it was iOS/Android React. Recently, the day came that iPad apps could then run on macOS, and now I've been writing multi-platform apps with the same source code and amazing performance. This tries to share that experience as a starter kit. This code aims to run React everywhere, so uses Next v9 for server-side rendering which covers a lot of SEO bases.
+React Once is an open example of universal, "write once, run everywhere" using React (Native) syntax and libraries. It runs native on all platforms it currently supports, and showcases many packages working--ones useful in starting a project too.
 
 ##### TLDR
 
-✅ Web support and full Next/SSR benefits
-✅ iOS support
-✅ macOS support
-✅ Very streamlined Redux
-✅ Flow type checking
-✅ Multi-language support
-✅ Example code including auth
-✅ Custom icon examples
+🧰 Web support and full Next/SSR benefits
+
+📱 iOS support
+
+🖥 macOS support
+
+🏄‍♀️ Very streamlined Redux
+
+🔍 Flow type checking
+
+🌐 Multi-language support
+
+🔏 Example code including auth
+
+📸 Custom icon examples
+
 ⚠️ I have not tested it on android yet, fyi
 
-##### Stop calling it React Native
+#### Purpose 
 
-I've been frustrated by peers and employers who see React and React Native as overly separate? It's like when people confuse Javascript for Java, but in reverse. We added on "Native" to the name "React" and it's like I have to write separate resumes for each. Whatever we call it, I hope we can enjoy writing universal, native code bases in a declarative way. I know I do.
+I think in the long run, naming "React Native" what it's called was a mistake. It's made it seem too separate from React in my experience with other devs and companies. The mantra of "learn once, write anywhere" was very important as it set realistic goals for the time. It's let us use this declarative UI framework on web and mobile for the past 7 years, whereas if they'd tried to make it work universally since day one it'd either have the same downsides as other "write once" libraries that use web views, or taken ages to be released.
 
 ## Installation
 
@@ -43,6 +51,10 @@ cd ..
 ```
 
 And then use `npm run ios` or open it in XCode to run. **To run on macOS you must also do it in XCode** as I haven't added a script for that yet. See below for notes on M1 (which I use with success).
+
+## Source code
+
+The source code is located here (https://gitlab.com/NoahGray/react-once-template/-/tree/main/template), and all tickets can be found there, or added there. 
 
 ### Routing
 
